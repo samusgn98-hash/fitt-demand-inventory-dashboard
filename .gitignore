@@ -1,0 +1,24 @@
+# Ambienti virtuali
+.venv/
+venv/
+env/
+
+# File temporanei Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configurazioni locali
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# Sistema operativo e Word
+.DS_Store
+Thumbs.db
+~$*.docx
