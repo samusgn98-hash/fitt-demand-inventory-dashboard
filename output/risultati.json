@@ -1,0 +1,142 @@
+{
+  "Base": {
+    "PW01": {
+      "articolo": "PW01",
+      "scenario": "Base",
+      "metodo": "Esponenziale semplice",
+      "MAE": 8.604606503481937,
+      "RMSE": 9.91979335719124,
+      "evasione": 1.0,
+      "giacenza": 91.25,
+      "arretrati": 0.0,
+      "componenti": {
+        "Ciclica": 39.489583432696925,
+        "Sicurezza": 10.82352923260737,
+        "Anticipata": 0.0,
+        "Pipeline": 78.97916686539385
+      },
+      "n_errori": 11
+    },
+    "PW02": {
+      "articolo": "PW02",
+      "scenario": "Base",
+      "metodo": "Holt-Winters",
+      "MAE": 13.385293840025156,
+      "RMSE": 15.551997794464551,
+      "evasione": 1.0,
+      "giacenza": 110.91666666666667,
+      "arretrati": 0.0,
+      "componenti": {
+        "Ciclica": 28.822916688875548,
+        "Sicurezza": 23.959800146228076,
+        "Anticipata": 0.0,
+        "Pipeline": 57.645833377751096
+      },
+      "n_errori": 11
+    },
+    "PW03": {
+      "articolo": "PW03",
+      "scenario": "Base",
+      "metodo": "Holt-Winters",
+      "MAE": 8.619454144628472,
+      "RMSE": 9.927945840678555,
+      "evasione": 0.404434250764526,
+      "giacenza": 10.083333333333334,
+      "arretrati": 199.0,
+      "componenti": {
+        "Ciclica": 50.771441299238106,
+        "Sicurezza": 29.244159487735942,
+        "Anticipata": 358.265489534096,
+        "Pipeline": 101.54288259847621
+      },
+      "n_errori": 11
+    },
+    "PW04": {
+      "articolo": "PW04",
+      "scenario": "Base",
+      "metodo": "Esponenziale semplice",
+      "MAE": 18.631295215158676,
+      "RMSE": 22.365843819187972,
+      "evasione": 1.0,
+      "giacenza": 52.583333333333336,
+      "arretrati": 0.0,
+      "componenti": {
+        "Ciclica": 18.31250093038087,
+        "Sicurezza": 35.13792963823673,
+        "Anticipata": 0.0,
+        "Pipeline": 36.62500186076174
+      },
+      "n_errori": 11
+    }
+  },
+  "Alternativo": {
+    "PW01": {
+      "articolo": "PW01",
+      "scenario": "Alternativo",
+      "metodo": "Esponenziale semplice",
+      "MAE": 13.099524121525391,
+      "RMSE": 15.056004768866021,
+      "evasione": 1.0,
+      "giacenza": 96.25,
+      "arretrati": 0.0,
+      "componenti": {
+        "Ciclica": 39.177082625668,
+        "Sicurezza": 7.5454524262448786,
+        "Anticipata": 0.0,
+        "Pipeline": 156.708330502672
+      },
+      "n_errori": 10
+    },
+    "PW02": {
+      "articolo": "PW02",
+      "scenario": "Alternativo",
+      "metodo": "Holt-Winters",
+      "MAE": 19.487417132352004,
+      "RMSE": 23.129792892776102,
+      "evasione": 0.9735525375268048,
+      "giacenza": 101.91666666666667,
+      "arretrati": 0.0,
+      "componenti": {
+        "Ciclica": 21.08333864007711,
+        "Sicurezza": 23.828708574180553,
+        "Anticipata": 0.0,
+        "Pipeline": 117.33335740139388
+      },
+      "n_errori": 10
+    },
+    "PW03": {
+      "articolo": "PW03",
+      "scenario": "Alternativo",
+      "metodo": "Holt-Winters",
+      "MAE": 11.959272779550647,
+      "RMSE": 14.284476292607815,
+      "evasione": 0.31241473396998637,
+      "giacenza": 12.5,
+      "arretrati": 301.0,
+      "componenti": {
+        "Ciclica": 56.14381055793604,
+        "Sicurezza": 56.94066190041633,
+        "Anticipata": 452.718013464838,
+        "Pipeline": 227.57607470991928
+      },
+      "n_errori": 10
+    },
+    "PW04": {
+      "articolo": "PW04",
+      "scenario": "Alternativo",
+      "metodo": "Esponenziale semplice",
+      "MAE": 24.97565098962556,
+      "RMSE": 29.03777108874503,
+      "evasione": 1.0,
+      "giacenza": 42.0,
+      "arretrati": 0.0,
+      "componenti": {
+        "Ciclica": 17.770834542475306,
+        "Sicurezza": 75.10715028015701,
+        "Anticipata": 0.0,
+        "Pipeline": 71.08333816990123
+      },
+      "n_errori": 10
+    }
+  }
+}
