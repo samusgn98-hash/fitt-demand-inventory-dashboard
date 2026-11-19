@@ -1,0 +1,9 @@
+articolo    scenario                metodo       MAE      RMSE  evasione   giacenza  arretrati  n_errori
+    PW01        Base Esponenziale semplice  8.604607  9.919793  1.000000  91.250000        0.0        11
+    PW02        Base          Holt-Winters 13.385294 15.551998  1.000000 110.916667        0.0        11
+    PW03        Base          Holt-Winters  8.619454  9.927946  0.404434  10.083333      199.0        11
+    PW04        Base Esponenziale semplice 18.631295 22.365844  1.000000  52.583333        0.0        11
+    PW01 Alternativo Esponenziale semplice 13.099524 15.056005  1.000000  96.250000        0.0        10
+    PW02 Alternativo          Holt-Winters 19.487417 23.129793  0.973553 101.916667        0.0        10
+    PW03 Alternativo          Holt-Winters 11.959273 14.284476  0.312415  12.500000      301.0        10
+    PW04 Alternativo Esponenziale semplice 24.975651 29.037771  1.000000  42.000000        0.0        10
